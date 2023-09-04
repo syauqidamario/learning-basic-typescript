@@ -11,6 +11,7 @@ describe('Optional Parameter', function () {
         helloThere("There");
         const name = undefined;
         helloThere(name);
+        helloThere(null);
     });
 });
 export {};
